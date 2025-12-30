@@ -26,3 +26,11 @@ To run any of these files, navigate to the folder in your terminal and use the .
 ```bash
 dotnet run# 1st-repo
 It's my first GitHub repo
+### 4. Multiple Interface Implementation
+This example demonstrates how to implement **multiple inheritance** in C# using interfaces. Since C# classes cannot inherit from multiple parent classes, interfaces provide the standard solution to combine behaviors from distinct sources.
+###  Description
+The program defines two separate interfaces, `Animal` and `Animal1`. A single class, `AnimalClass`, implements both interfaces, proving that a class can adhere to multiple contracts simultaneously.
+###  Key Features
+* **Interface Definition:** Creation of lightweight contracts (`Animal`, `Animal1`).
+* **Multiple Implementation:** Syntax usage `class AnimalClass : Animal, Animal1`.
+* **Polymorphism:** The `AnimalClass` provides concrete logic for methods defined in completely separate interfaces.
