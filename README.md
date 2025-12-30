@@ -28,6 +28,17 @@ The program defines two separate interfaces, `Animal` and `Animal1`. A single cl
 * **Interface Definition:** Creation of lightweight contracts (`Animal`, `Animal1`).
 * **Multiple Implementation:** Syntax usage `class AnimalClass : Animal, Animal1`.
 * **Polymorphism:** The `AnimalClass` provides concrete logic for methods defined in completely separate interfaces.
+
+### 5. Encapsulation Implementation 
+### Description
+The program defines an Account class where the sensitive data field (accountbalance) is kept private by default. Instead of allowing direct access to the variable, the class provides public "Getter" and "Setter" methods:
+Setbalance: Validates the input data (ensuring no negative values are assigned) before updating the state.
+GetBalance: Provides a controlled way to read the current state of the object.
+### Key Features
+Data Hiding: Prevents external classes from directly manipulating the accountbalance variable.
+Input Validation: Includes logic to reject invalid entries (e.g., negative balances), ensuring the integrity of the data.
+Controlled Access: Implements a clean interface for interacting with object data through specific methods.
+Error Handling: Provides immediate feedback to the console when an invalid operation is attempted.
 # How to Run
 To run any of these files, navigate to the folder in your terminal and use the .NET CLI:
 
