@@ -39,9 +39,22 @@ Data Hiding: Prevents external classes from directly manipulating the accountbal
 Input Validation: Includes logic to reject invalid entries (e.g., negative balances), ensuring the integrity of the data.
 Controlled Access: Implements a clean interface for interacting with object data through specific methods.
 Error Handling: Provides immediate feedback to the console when an invalid operation is attempted.
+
+### 6. Nested Loop Patterns
+A collection of C# console applications demonstrating the use of nested for loops to generate geometric patterns. This specific implementation focuses on an inverted triangle alignment using spaces and characters.
+### Key Concepts
+Nested Iteration: Using an outer loop for rows and inner loops for column-wise logic.
+Space Padding: Implementing a k loop to handle indentation for symmetrical alignment.
+Decrementing Logic: Utilizing i-- to control the shrinking width of the pattern.
+### Features
+Dynamic Row Handling: Easily adjustable starting values (e.g., i = 9).
+Clean Output: Uses Console.Write for inline building and Console.WriteLine for row breaks.
+Lightweight: Minimal memory footprint, ideal for learning C# syntax basics.
 # How to Run
 To run any of these files, navigate to the folder in your terminal and use the .NET CLI:
-
+Ensure you have the .NET SDK installed.
+Copy the code into a Program.cs file.
+Run using dotnet run or via Visual Studio.
 ```bash
 dotnet run# 1st-repo
 It's my first GitHub repo
